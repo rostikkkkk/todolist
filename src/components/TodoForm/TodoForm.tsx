@@ -40,7 +40,7 @@ export default function TodoForm({ onAddTodo, isLoading }: TodoFormProps) {
         className={`mt-4 w-[200px] p-3 font-bold transition-all rounded-md border-2 ${
           isButtonDisabled
             ? 'bg-gray-400 cursor-not-allowed text-gray-200 border-gray-400'
-            : 'bg-blue-500 hover:bg-blue-600 text-white border-blue-500 hover:border-blue-600'
+            : 'bg-blue-500 hover:bg-blue-600 text-white border-blue-500 hover:border-blue-600 cursor-pointer'
         }`}
         disabled={isButtonDisabled}
       >
